@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "MuseoSansCyrl-700";
+    src: url("fonts/MuseoSansCyrl-700.otf");
+}
+
+body {
+    margin: 0;
+    font-family: 'MuseoSansCyrl-700', sans-serif;
+    font-size: px;
+    color: #cfc38f;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* --------------container------------ */
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+/* ------------------HEADER---------------- */
+
+.header {
+    padding: 20px 0;
+    background-image: url(images/head.png);
+    /* background-color: rgb(51, 30, 25); */
+    position: sticky;
+    left: 0px;
+    top: -1px;
+    width: 100%;
+    height: 90px;
+    z-index: 104;
+
+}
+
+.header__inner {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+
+.nav__in {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    color: #cfc38f;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.logOut__link {
+    color: #cfc38f;
+    text-decoration: none;
+    opacity: .85;
+    transition: .2s;
+}
+
+.logOut__link:hover {
+    opacity: .50;
+}
+
+.iconki0 {
+    margin-left: 30%;
+    margin-right: 10px;
+}
+
+.iconki-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav_fio {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.nav_out {
+    margin-left: 100%;
+}
+
+/* -----------------sidenav */
+
+.sidenav {
+    height: 100%;
+    width: 285px;
+    position: fixed;
+    /* z-index: 1; */
+    /* top: 0; */
+    left: 0;
+    background-color: #cfc38f;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 5px 20px 5px 45px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #4f3f00;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main {
+    margin-left: 300px;
+    padding: 0px, 10px;
+}
+
+.obr_svz {
+    bottom: 80px;
+    width: 285px;
+    height: 80px;
+    background-color: #d97925;
+    position: fixed;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.photobrak {
+    bottom: 0px;
+    width: 285px;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    background-color: #415e21;
+    display: flex;
+    align-items: center;
+}
+
+.ftbr{
+    font-size: 10px;
+}
+
+.obr {
+    font-size: 10px;
+}
+
+
+
+.sidenav p.cont {
+    color: #7e6d51;
+    font-size: 10px;
+    padding: 0px 20px 5px 45px;
+    margin: 0;
+}
+
+.sidenav p.tel {
+    color: #7e6d51;
+    font-size: 15px;
+    padding: 50px 20px 15px 45px;
+    margin: 0;
+}
+
+.sidenav img {
+    padding-right: 30px;
+}
